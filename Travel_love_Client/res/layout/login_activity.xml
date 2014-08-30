@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background6"
+    android:orientation="vertical" >
+    
+      <LinearLayout 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:gravity="right">
+            <RelativeLayout 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/enroll_relativelayout">
+                <!-- 如果不加上width和height的值的话，组件是写不出来的 -->
+                  <ImageButton 
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerInParent="true"
+                      android:background="@drawable/to_enrollpage"
+                      android:id="@+id/enrolltext"
+                      />
+             </RelativeLayout>
+     </LinearLayout>
+     <LinearLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"></LinearLayout><!-- 这个留下给LOGO用的 -->
+      <LinearLayout 
+          android:layout_width="fill_parent"
+          android:layout_marginTop="200dp"
+          android:gravity="center"
+          android:orientation="vertical"
+          android:layout_marginLeft="35dp"
+          android:layout_marginRight="35dp"
+          android:background="@drawable/login_border"
+          android:layout_height="wrap_content">
+               <EditText 
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:textColor="#A0A89B"
+                    android:background="@drawable/input_layout"
+                   android:inputType="text"
+                   android:textSize="20dp"
+                   android:ellipsize="end"
+                   android:singleLine="true"
+                   android:id="@+id/usermail"
+                   android:hint="用户邮箱"/>
+               <View android:layout_width="fill_parent"
+                   android:layout_height="2dip"
+                   android:background="#B3B3B3"/>
+               <EditText
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:inputType="textPassword"
+                    android:background="@drawable/input_layout"
+                   android:hint="密码"
+                   android:id="@+id/userpassword"
+                   android:ellipsize="end"
+                   android:singleLine="true"
+                   android:textSize="20dp"
+                   android:textColor="#A0A89B"/>
+      </LinearLayout>
+      <LinearLayout 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:gravity="center"
+          >
+            <Button 
+                android:layout_width="fill_parent"
+                android:id="@+id/loginbtn"
+                android:layout_height="30dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:gravity="center"
+                android:text="登录"
+                android:textColor="#ffffff"
+                android:background="@drawable/login_btn"
+                
+                />
+      </LinearLayout>
+</LinearLayout>

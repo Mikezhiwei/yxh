@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <resources>
+          <color name="xueqing">#BBEEE4</color>
+          <color name="blue">#48A9EB</color>
+          <color name="yellow">#F5DEB3</color>
+          <color name="white">#FFFFFF</color>
+          <color name="gray">#EDEDEF</color>
+          <color name="gray_back">#B4ADB8</color>
+    </resources>

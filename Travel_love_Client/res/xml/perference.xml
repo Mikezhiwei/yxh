@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+            <PreferenceCategory
+                android:title="数据存储" android:key="data">
+                <EditTextPreference
+                    android:title="是否登录"
+                    android:key="islogin"
+                    android:defaultValue="unlogin"
+                    >
+               </EditTextPreference>
+               <EditTextPreference 
+                   android:title="数据库主键"
+                   android:key="user_id"/>
+               <EditTextPreference 
+                   android:title="呢称"
+                   android:key="nick_name"/>
+               <EditTextPreference 
+                   android:title="性别"
+                   android:key="sex"/>
+               <EditTextPreference 
+                   android:title="年龄"
+                   android:key="age"/>
+               <EditTextPreference
+                   android:title="职业"
+                   android:key="job">
+                </EditTextPreference>
+              </PreferenceCategory>
+    </PreferenceScreen>

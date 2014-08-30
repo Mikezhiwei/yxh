@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     
+       <LinearLayout 
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+                  <LinearLayout 
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="left"
+                      android:layout_marginTop="20dp"
+                      android:orientation="horizontal">
+                          <TextView 
+                              android:layout_marginLeft="20dp"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:id="@+id/com_nickname"
+                              android:text="许我一身轻薄色"
+                              android:ellipsize="end"
+                              android:layout_weight="1.0"
+                             />
+                             <TextView 
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="回复"
+                              android:layout_weight="1.0">
+                            </TextView>
+                            <TextView 
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="我"
+                                android:ellipsize="end"
+                                android:id="@+id/com_reply_nickname"
+                                android:layout_weight="1.0"
+                                android:layout_marginRight="20dp"
+                                />
+                  </LinearLayout>
+                  <LinearLayout 
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      >
+                         <TextView 
+                             android:layout_width="fill_parent"
+                             android:layout_height="wrap_content"
+                             android:text="你的电话?"
+                             android:gravity="center"
+                             android:ellipsize="end"
+                             android:maxLines="3"
+                             android:id="@+id/commet_detail"/>
+                         <TextView 
+                             android:layout_width="fill_parent"
+                             android:layout_height="wrap_content"
+                             android:id="@+id/com_time"
+                             android:text="时间"
+                             android:gravity="center"
+                             />
+                          <TextView 
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:id="@+id/com_id"
+                              android:visibility="gone"/> 
+                  </LinearLayout>
+       </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#bbcc3333" />
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     
+       <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="#BBEEE4">
+              <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:textSize="25dp"
+                  android:textColor="#5D79E6"
+                  android:layout_marginLeft="35dp"
+                  android:layout_marginRight="35dp"
+                  android:text="驴宝在手，旅途无忧!"
+                  android:id="@+id/wel_test"
+                  />
+       </LinearLayout>
+</LinearLayout>
